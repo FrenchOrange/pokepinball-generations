@@ -502,6 +502,7 @@ BallCaptureFrame12OAM: ; 0x441f
 	db $80 ; terminator
 
 AnimatedMonSpriteType0Frame0OAM: ; 0x4428
+; Squirtle
 	db $fb, $0a, $9e, $15
 	db $fb, $02, $9c, $15
 	db $ff, $15, $9a, $13
@@ -513,6 +514,7 @@ AnimatedMonSpriteType0Frame0OAM: ; 0x4428
 	db $80 ; terminator
 
 AnimatedMonSpriteType0Frame1OAM: ; 0x4449
+; Squirtle
 	db $fc, $0a, $1c, $15
 	db $fc, $02, $1a, $15
 	db $fe, $15, $9a, $13
@@ -524,6 +526,7 @@ AnimatedMonSpriteType0Frame1OAM: ; 0x4449
 	db $80 ; terminator
 
 AnimatedMonSpriteType0Frame2OAM: ; 0x446a
+; Squirtle
 	db $ff, $08, $2e, $15
 	db $ff, $00, $2c, $15
 	db $ff, $10, $2a, $13
@@ -536,6 +539,7 @@ AnimatedMonSpriteType0Frame2OAM: ; 0x446a
 	db $80 ; terminator
 
 AnimatedMonSpriteType1Frame0OAM: ; 0x448f
+; Bulbasaur
 	db $ef, $03, $92, $15
 	db $f3, $0b, $94, $15
 	db $f3, $fb, $90, $15
@@ -548,6 +552,7 @@ AnimatedMonSpriteType1Frame0OAM: ; 0x448f
 	db $80 ; terminator
 
 AnimatedMonSpriteType1Frame1OAM: ; 0x44b4
+; Bulbasaur
 	db $f0, $04, $a4, $15
 	db $f3, $0c, $a6, $15
 	db $f3, $fc, $a2, $15
@@ -558,6 +563,7 @@ AnimatedMonSpriteType1Frame1OAM: ; 0x44b4
 	db $80 ; terminator
 
 AnimatedMonSpriteType1Frame2OAM: ; 0x44d1
+; Bulbasaur
 	db $f8, $10, $26, $15
 	db $f3, $08, $24, $15
 	db $f3, $00, $22, $15
@@ -569,10 +575,12 @@ AnimatedMonSpriteType1Frame2OAM: ; 0x44d1
 	db $80 ; terminator
 
 AnimatedMonSpriteType2Frame0OAM: ; 0x44f2
+; Shared
 	db $00, $10, $9e, $13
 	db $00, $08, $9c, $13
 	db $00, $00, $9a, $13
 	db $00, $f8, $98, $13
+
 	db $f0, $10, $96, $13
 	db $f0, $08, $94, $13
 	db $f0, $00, $92, $13
@@ -580,10 +588,12 @@ AnimatedMonSpriteType2Frame0OAM: ; 0x44f2
 	db $80 ; terminator
 
 AnimatedMonSpriteType2Frame1OAM: ; 0x4513
+; Shared
 	db $00, $10, $1e, $13
 	db $00, $08, $1c, $13
 	db $00, $00, $1a, $13
 	db $00, $f8, $a8, $13
+
 	db $f0, $10, $a6, $13
 	db $f0, $08, $a4, $13
 	db $f0, $00, $a2, $13
@@ -591,10 +601,12 @@ AnimatedMonSpriteType2Frame1OAM: ; 0x4513
 	db $80 ; terminator
 
 AnimatedMonSpriteType2Frame2OAM: ; 0x4534
+; Shared
 	db $00, $10, $2e, $13
 	db $00, $08, $2c, $13
 	db $00, $00, $2a, $13
 	db $00, $f8, $28, $13
+
 	db $f0, $10, $26, $13
 	db $f0, $08, $24, $13
 	db $f0, $00, $22, $13
@@ -602,37 +614,42 @@ AnimatedMonSpriteType2Frame2OAM: ; 0x4534
 	db $80 ; terminator
 
 AnimatedMonSpriteType3Frame0OAM: ; 0x4555
-	db $00, $10, $9e, $13
-	db $00, $08, $9c, $13
-	db $00, $00, $9a, $13
-	db $00, $f8, $98, $13
-	db $f0, $10, $96, $13
-	db $f0, $08, $94, $13
+; Porygon
+	db $f8, $00, $90, $15
 	db $f0, $00, $92, $13
-	db $f0, $f8, $90, $13
+	db $f8, $08, $96, $15
+	db $f0, $08, $94, $13
+
+	db $00, $f8, $98, $13
+	db $00, $00, $9a, $13
+	db $00, $08, $9c, $13
+	db $00, $10, $9e, $13
 	db $80 ; terminator
 
 AnimatedMonSpriteType3Frame1OAM: ; 0x4576
-	db $00, $10, $1e, $13
-	db $00, $08, $1c, $13
-	db $00, $00, $1a, $13
-	db $00, $f8, $a8, $13
-	db $f0, $10, $a6, $13
-	db $f0, $08, $a4, $13
+; Porygon
+	db $f7, $00, $a0, $15
+	db $f7, $08, $a6, $15
 	db $f0, $00, $a2, $13
-	db $f0, $f8, $a0, $13
+	db $f0, $08, $a4, $13
+
+	db $00, $f8, $a8, $13
+	db $00, $00, $1a, $13
+	db $00, $08, $1c, $13
+	db $00, $10, $1e, $13
 	db $80 ; terminator
 
 AnimatedMonSpriteType3Frame2OAM: ; 0x4597
-	db $01, $10, $2e, $13
-	db $01, $08, $2c, $13
-	db $01, $00, $2a, $13
-	db $01, $f8, $28, $13
-	db $f1, $10, $26, $13
-	db $f1, $08, $24, $13
-	db $f1, $00, $22, $13
-	db $f1, $f8, $20, $13
-	db $80 ; terminator
+; Porygon
+	db $f8, $00, $20, $15
+	db $f0, $00, $22, $13
+	db $f8, $08, $26, $15
+	db $f0, $08, $24, $13
+
+	db $00, $f8, $28, $13
+	db $00, $00, $2a, $13
+	db $00, $08, $2c, $13
+	db $00, $10, $2e, $13
 
 OAMData_32: ; 0x45b8
 	db $10, $08, $30, $06
@@ -1616,6 +1633,7 @@ OAMData_a4: ; 0x5002
 	db $80 ; terminator
 
 OAMData_a5: ; 0x5007
+; Squirtle
 	db $03, $0a, $0f, $1d
 	db $fb, $0a, $0e, $1d
 	db $03, $02, $0d, $1d
@@ -1635,6 +1653,7 @@ OAMData_a5: ; 0x5007
 	db $80 ; terminator
 
 OAMData_a6: ; 0x5048
+; Squirtle
 	db $04, $0a, $1d, $1d
 	db $fc, $0a, $1c, $1d
 	db $04, $02, $1b, $1d
@@ -1654,6 +1673,7 @@ OAMData_a6: ; 0x5048
 	db $80 ; terminator
 
 OAMData_a7: ; 0x5089
+; Squirtle
 	db $07, $08, $2f, $1d
 	db $ff, $08, $2e, $1d
 	db $07, $00, $2d, $1d
@@ -1675,6 +1695,7 @@ OAMData_a7: ; 0x5089
 	db $80 ; terminator
 
 OAMData_a8: ; 0x50d2
+; Bulbasaur
 	db $15, $01, $0b, $0a
 	db $ef, $03, $02, $1d
 	db $f7, $03, $03, $1d
@@ -1695,6 +1716,7 @@ OAMData_a8: ; 0x50d2
 	db $80 ; terminator
 
 OAMData_a9: ; 0x5117
+; Bulbasaur
 	db $f8, $04, $15, $1d
 	db $f0, $04, $14, $1d
 	db $fb, $0c, $17, $1d
@@ -1712,6 +1734,7 @@ OAMData_a9: ; 0x5117
 	db $80 ; terminator
 
 OAMData_aa: ; 0x5150
+; Bulbasaur
 	db $00, $10, $27, $1d
 	db $f8, $10, $26, $1d
 	db $fb, $08, $25, $1d
@@ -1731,6 +1754,7 @@ OAMData_aa: ; 0x5150
 	db $80 ; terminator
 
 OAMData_ab: ; 0x5191
+; Shared
 	db $08, $10, $0f, $1b
 	db $00, $10, $0e, $1b
 	db $08, $08, $0d, $1b
@@ -1750,6 +1774,7 @@ OAMData_ab: ; 0x5191
 	db $80 ; terminator
 
 OAMData_ac: ; 0x51d2
+; Shared
 	db $08, $10, $1f, $1b
 	db $00, $10, $1e, $1b
 	db $08, $08, $1d, $1b
@@ -1769,6 +1794,7 @@ OAMData_ac: ; 0x51d2
 	db $80 ; terminator
 
 OAMData_ad: ; 0x5213
+; Shared
 	db $08, $10, $2f, $1b
 	db $00, $10, $2e, $1b
 	db $08, $08, $2d, $1b
@@ -1788,60 +1814,75 @@ OAMData_ad: ; 0x5213
 	db $80 ; terminator
 
 OAMData_ae: ; 0x5254
-	db $08, $10, $0f, $1d
-	db $00, $10, $0e, $1b
-	db $08, $08, $0d, $1d
-	db $00, $08, $0c, $1b
-	db $08, $00, $0b, $1d
-	db $00, $00, $0a, $1b
-	db $08, $f8, $09, $1d
-	db $00, $f8, $08, $1b
-	db $f8, $10, $07, $1b
-	db $f0, $10, $06, $1b
-	db $f8, $08, $05, $1b
-	db $f0, $08, $04, $1b
-	db $f8, $00, $03, $1b
+; Porygon
+; Each frame is cut into four chunks, each one containing four tiles.
+; Data is loaded as top left, bottom left, top right, bottom right.
+; Tile data is vertical axis, horizontal axis, frame tile, and palette slot. 
+	db $f8, $00, $00, $1d
+	db $00, $00, $01, $1d
 	db $f0, $00, $02, $1b
-	db $f8, $f8, $01, $1b
-	db $f0, $f8, $00, $1b
+	db $f8, $00, $03, $1b
+
+	db $f0, $08, $04, $1b
+	db $f8, $08, $06, $1d
+	db $f8, $08, $05, $1b
+	db $00, $08, $07, $1d
+
+	db $00, $f8, $08, $1b
+	db $08, $f8, $09, $1b
+	db $00, $00, $0a, $1b
+	db $08, $00, $0b, $1b
+
+	db $00, $08, $0c, $1b
+	db $08, $08, $0d, $1b
+	db $00, $10, $0e, $1b
+	db $08, $10, $0f, $1b
 	db $80 ; terminator
 
 OAMData_af: ; 0x5295
-	db $08, $10, $1f, $1d
-	db $00, $10, $1e, $1b
-	db $08, $08, $1d, $1d
-	db $00, $08, $1c, $1b
-	db $08, $00, $1b, $1d
-	db $00, $00, $1a, $1b
-	db $08, $f8, $19, $1d
-	db $00, $f8, $18, $1b
-	db $f8, $10, $17, $1b
-	db $f0, $10, $16, $1b
-	db $f8, $08, $15, $1b
-	db $f0, $08, $14, $1b
-	db $f8, $00, $13, $1b
+; Porygon
+	db $f7, $00, $10, $1d
+	db $ff, $00, $11, $1d
 	db $f0, $00, $12, $1b
-	db $f8, $f8, $11, $1b
-	db $f0, $f8, $10, $1b
+	db $f8, $00, $13, $1b
+
+	db $f7, $08, $16, $1d
+	db $ff, $08, $17, $1d
+	db $f0, $08, $14, $1b
+	db $f8, $08, $15, $1b
+
+	db $00, $f8, $18, $1b
+	db $08, $f8, $19, $1b
+	db $00, $00, $1a, $1b
+	db $08, $00, $1b, $1b
+
+	db $00, $08, $1c, $1b
+	db $08, $08, $1d, $1b
+	db $00, $10, $1e, $1b
+	db $08, $10, $1f, $1b
 	db $80 ; terminator
 
 OAMData_b0: ; 0x52d6
-	db $09, $10, $2f, $1d
-	db $01, $10, $2e, $1b
-	db $09, $08, $2d, $1d
-	db $01, $08, $2c, $1b
-	db $09, $00, $2b, $1d
-	db $01, $00, $2a, $1b
-	db $09, $f8, $29, $1d
-	db $01, $f8, $28, $1b
-	db $f9, $10, $27, $1b
-	db $f1, $10, $26, $1b
-	db $f9, $08, $25, $1b
-	db $f1, $08, $24, $1b
-	db $f9, $00, $23, $1b
-	db $f1, $00, $22, $1b
-	db $f9, $f8, $21, $1b
-	db $f1, $f8, $20, $1b
+; Porygon
+	db $f8, $00, $20, $1d
+	db $00, $00, $21, $1d
+	db $f0, $00, $22, $1b
+	db $f8, $00, $23, $1b
+
+	db $f0, $08, $24, $1b
+	db $f8, $08, $26, $1d
+	db $f8, $08, $25, $1b
+	db $00, $08, $27, $1d
+
+	db $00, $f8, $28, $1b
+	db $08, $f8, $29, $1b
+	db $00, $00, $2a, $1b
+	db $08, $00, $2b, $1b
+
+	db $00, $08, $2c, $1b
+	db $08, $08, $2d, $1b
+	db $00, $10, $2e, $1b
+	db $08, $10, $2f, $1b
 	db $80 ; terminator
 
 Timer0DigitOAM: ; 0x5317
