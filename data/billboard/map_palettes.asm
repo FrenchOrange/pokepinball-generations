@@ -94,13 +94,13 @@ VermilionStreetsBillboardBGPalette2: ; 0x8ff78
 	RGB 7, 8, 13
 	RGB 0, 0, 0
 
-RockMountainBillboardBGPalettes:
-RockMountainBillboardBGPalette1: ; 0x8ff80
+RockTunnelBillboardBGPalettes:
+RockTunnelBillboardBGPalette1: ; 0x8ff80
 	RGB 31, 31, 31
 	RGB 27, 13, 4
 	RGB 21, 5, 0
 	RGB 0, 0, 0
-RockMountainBillboardBGPalette2: ; 0x8ff88
+RockTunnelBillboardBGPalette2: ; 0x8ff88
 	RGB 3, 18, 31
 	RGB 27, 13, 4
 	RGB 2, 16, 1

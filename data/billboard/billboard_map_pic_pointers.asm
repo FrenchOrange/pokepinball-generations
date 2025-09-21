@@ -7,7 +7,7 @@ MapBillboardPicturePointers:
 	BillboardPicturePointer CeruleanCityPic, BILLBOARD_CERULEAN_CITY
 	BillboardPicturePointer VermilionCitySeasidePic, BILLBOARD_VERMILION_SEASIDE
 	BillboardPicturePointer VermilionCityStreetsPic, BILLBOARD_VERMILION_STREETS
-	BillboardPicturePointer RockMountainPic, BILLBOARD_ROCK_MOUNTAIN
+	BillboardPicturePointer RockTunnelPic, BILLBOARD_ROCK_TUNNEL
 	BillboardPicturePointer LavenderTownPic, BILLBOARD_LAVENDER_TOWN
 	BillboardPicturePointer CeladonCityPic, BILLBOARD_CELADON_CITY
 	BillboardPicturePointer CyclingRoadPic, BILLBOARD_CYCLING_ROAD

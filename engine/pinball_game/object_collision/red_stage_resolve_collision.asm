@@ -2320,7 +2320,7 @@ RedStageInitialMaps: ; 0x16605
 	db PEWTER_CITY
 	db CERULEAN_CITY
 	db VERMILION_SEASIDE
-	db ROCK_MOUNTAIN
+	db ROCK_TUNNEL
 	db LAVENDER_TOWN
 
 ResolveRedStagePikachuCollision: ; 0x1660c

@@ -8,7 +8,7 @@ DEF const_value = 0
 	const CERULEAN_CITY      ; $5
 	const VERMILION_SEASIDE  ; $6
 	const VERMILION_STREETS  ; $7
-	const ROCK_MOUNTAIN      ; $8
+	const ROCK_TUNNEL        ; $8
 	const LAVENDER_TOWN      ; $9
 	const CELADON_CITY       ; $a
 	const CYCLING_ROAD       ; $b

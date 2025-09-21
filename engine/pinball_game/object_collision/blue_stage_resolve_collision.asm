@@ -156,7 +156,7 @@ BlueStageInitialMaps: ; 0x1c8af
 	db MT_MOON
 	db CERULEAN_CITY
 	db VERMILION_STREETS
-	db ROCK_MOUNTAIN
+	db ROCK_TUNNEL
 	db CELADON_CITY
 
 UpdateForceFieldDirection: ; 0x1c8b6

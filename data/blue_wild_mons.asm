@@ -178,7 +178,7 @@ BlueStageVermilionStreetsWildMonsRare: ; 0x114dd
 	dw KRABBY
 	dw KRABBY
 
-BlueStageRockMountainWildMons: ; 0x114ed
+BlueStageRockTunnelWildMons: ; 0x114ed
 	dw RATTATA
 	dw SPEAROW
 	dw SANDSHREW
@@ -196,7 +196,7 @@ BlueStageRockMountainWildMons: ; 0x114ed
 	dw VOLTORB
 	dw VOLTORB
 
-BlueStageRockMountainWildMonsRare: ; 0x114fd
+BlueStageRockTunnelWildMonsRare: ; 0x114fd
 	dw ZUBAT
 	dw ZUBAT
 	dw DIGLETT

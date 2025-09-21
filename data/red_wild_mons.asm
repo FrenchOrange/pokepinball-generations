@@ -179,7 +179,7 @@ RedStageVermilionSeasideWildMonsRare: ; 0x1135c
 	dw KRABBY
 	dw KRABBY
 
-RedStageRockMountainWildMons: ; 0x1136c
+RedStageRockTunnelWildMons: ; 0x1136c
 	dw RATTATA
 	dw SPEAROW
 	dw EKANS
@@ -197,7 +197,7 @@ RedStageRockMountainWildMons: ; 0x1136c
 	dw VOLTORB
 	dw VOLTORB
 
-RedStageRockMountainWildMonsRare: ; 0x1137c
+RedStageRockTunnelWildMonsRare: ; 0x1137c
 	dw ZUBAT
 	dw ZUBAT
 	dw DIGLETT

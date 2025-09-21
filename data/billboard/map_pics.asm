@@ -14,8 +14,8 @@ VermilionCitySeasidePic: ; 0xa6900
 	INCBIN "gfx/billboard/maps/vermilioncityseaside.2bpp"
 VermilionCityStreetsPic: ; 0xa6a80
 	INCBIN "gfx/billboard/maps/vermilioncitystreets.2bpp"
-RockMountainPic: ; 0xa6c00
-	INCBIN "gfx/billboard/maps/rockmountain.2bpp"
+RockTunnelPic: ; 0xa6c00
+	INCBIN "gfx/billboard/maps/rocktunnel.2bpp"
 LavenderTownPic: ; 0xa6d80
 	INCBIN "gfx/billboard/maps/lavendertown.2bpp"
 CeladonCityPic: ; 0xa6f00

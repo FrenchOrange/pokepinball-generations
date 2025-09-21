@@ -115,11 +115,11 @@ MapNames:
 	dba CeruleanCityText
 	dba VermilionSeasideText
 	dba VermilionStreetsText
-	dba RockMountainText
+	dba RockTunnelText
 	dba LavenderTownText
 	dba CeladonCityText
 	dba CyclingRoadText
-	dba FuchiaCityText
+	dba FuchsiaCityText
 	dba SafariZoneText
 	dba SaffronCityText
 	dba SeafoamIslandsText
@@ -301,7 +301,7 @@ FirstMapMoveSet_RedField:
 	db PEWTER_CITY
 	db CERULEAN_CITY
 	db VERMILION_SEASIDE
-	db ROCK_MOUNTAIN
+	db ROCK_TUNNEL
 	db LAVENDER_TOWN
 
 SecondMapMoveSet_RedField:
@@ -473,7 +473,7 @@ FirstMapMoveSet_BlueField:
 	db MT_MOON
 	db CERULEAN_CITY
 	db VERMILION_STREETS
-	db ROCK_MOUNTAIN
+	db ROCK_TUNNEL
 	db CELADON_CITY
 
 SecondMapMoveSet_BlueField:

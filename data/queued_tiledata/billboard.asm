@@ -7,7 +7,7 @@ MapBillboardTileDataPointers:
 	dw CeruleanCityBillboardTileDataList
 	dw VermilionCitySeasideBillboardTileDataList
 	dw VermilionCityStreetsBillboardTileDataList
-	dw RockMountainBillboardTileDataList
+	dw RockTunnelBillboardTileDataList
 	dw LavenderTownBillboardTileDataList
 	dw CeladonCityBillboardTileDataList
 	dw CyclingRoadBillboardTileDataList
@@ -136,16 +136,16 @@ VermilionCityStreetsBillboardTileDataList:
 	dw VermilionCityStreetsBillboardTileData7
 	dw VermilionCityStreetsBillboardTileData8
 
-RockMountainBillboardTileDataList:
+RockTunnelBillboardTileDataList:
 	db 8
-	dw RockMountainBillboardTileData1
-	dw RockMountainBillboardTileData2
-	dw RockMountainBillboardTileData3
-	dw RockMountainBillboardTileData4
-	dw RockMountainBillboardTileData5
-	dw RockMountainBillboardTileData6
-	dw RockMountainBillboardTileData7
-	dw RockMountainBillboardTileData8
+	dw RockTunnelBillboardTileData1
+	dw RockTunnelBillboardTileData2
+	dw RockTunnelBillboardTileData3
+	dw RockTunnelBillboardTileData4
+	dw RockTunnelBillboardTileData5
+	dw RockTunnelBillboardTileData6
+	dw RockTunnelBillboardTileData7
+	dw RockTunnelBillboardTileData8
 
 LavenderTownBillboardTileDataList:
 	db 8
@@ -1066,68 +1066,68 @@ VermilionCityStreetsBillboardTileData8:
 	db Bank(VermilionCityStreetsPic)
 	db $00
 
-RockMountainBillboardTileData1:
+RockTunnelBillboardTileData1:
 	dw Func_11d2
 	db $30, $03
 	dw vTilesSH tile $10
-	dw RockMountainPic
-	db Bank(RockMountainPic)
+	dw RockTunnelPic
+	db Bank(RockTunnelPic)
 	db $00
 
-RockMountainBillboardTileData2:
+RockTunnelBillboardTileData2:
 	dw Func_11d2
 	db $30, $03
 	dw vTilesSH tile $13
-	dw RockMountainPic + $30
-	db Bank(RockMountainPic)
+	dw RockTunnelPic + $30
+	db Bank(RockTunnelPic)
 	db $00
 
-RockMountainBillboardTileData3:
+RockTunnelBillboardTileData3:
 	dw Func_11d2
 	db $30, $03
 	dw vTilesSH tile $16
-	dw RockMountainPic + $60
-	db Bank(RockMountainPic)
+	dw RockTunnelPic + $60
+	db Bank(RockTunnelPic)
 	db $00
 
-RockMountainBillboardTileData4:
+RockTunnelBillboardTileData4:
 	dw Func_11d2
 	db $30, $03
 	dw vTilesSH tile $19
-	dw RockMountainPic + $90
-	db Bank(RockMountainPic)
+	dw RockTunnelPic + $90
+	db Bank(RockTunnelPic)
 	db $00
 
-RockMountainBillboardTileData5:
+RockTunnelBillboardTileData5:
 	dw Func_11d2
 	db $30, $03
 	dw vTilesSH tile $1C
-	dw RockMountainPic + $C0
-	db Bank(RockMountainPic)
+	dw RockTunnelPic + $C0
+	db Bank(RockTunnelPic)
 	db $00
 
-RockMountainBillboardTileData6:
+RockTunnelBillboardTileData6:
 	dw Func_11d2
 	db $30, $03
 	dw vTilesSH tile $1F
-	dw RockMountainPic + $F0
-	db Bank(RockMountainPic)
+	dw RockTunnelPic + $F0
+	db Bank(RockTunnelPic)
 	db $00
 
-RockMountainBillboardTileData7:
+RockTunnelBillboardTileData7:
 	dw Func_11d2
 	db $30, $03
 	dw vTilesSH tile $22
-	dw RockMountainPic + $120
-	db Bank(RockMountainPic)
+	dw RockTunnelPic + $120
+	db Bank(RockTunnelPic)
 	db $00
 
-RockMountainBillboardTileData8:
+RockTunnelBillboardTileData8:
 	dw Func_11d2
 	db $30, $03
 	dw vTilesSH tile $25
-	dw RockMountainPic + $150
-	db Bank(RockMountainPic)
+	dw RockTunnelPic + $150
+	db Bank(RockTunnelPic)
 	db $00
 
 LavenderTownBillboardTileData1:
@@ -3507,7 +3507,7 @@ MapBillboardPaletteDataPointers:
 	dw CeruleanCityBillboardPaletteData
 	dw VermilionSeasideBillboardPaletteData
 	dw VermilionStreetsBillboardPaletteData
-	dw RockMountainBillboardPaletteData
+	dw RockTunnelBillboardPaletteData
 	dw LavenderTownBillboardPaletteData
 	dw CeladonCityBillboardPaletteData
 	dw CyclingRoadBillboardPaletteData
@@ -3588,10 +3588,10 @@ VermilionStreetsBillboardPaletteData:
 	dw VermilionStreetsBillboardBGPaletteData
 	dw VermilionStreetsBillboardBGPaletteMapData
 
-RockMountainBillboardPaletteData:
+RockTunnelBillboardPaletteData:
 	db $02
-	dw RockMountainBillboardBGPaletteData
-	dw RockMountainBillboardBGPaletteMapData
+	dw RockTunnelBillboardBGPaletteData
+	dw RockTunnelBillboardBGPaletteMapData
 
 LavenderTownBillboardPaletteData:
 	db $02
@@ -4059,38 +4059,38 @@ VermilionStreetsBillboardBGPaletteMapData:
 
 	db $00 ; terminator
 
-RockMountainBillboardBGPaletteData:
+RockTunnelBillboardBGPaletteData:
 	dw LoadPalettes
 	db $10
 	db $08 ; number of colors
 	db $30 ; OAM palettes
-	dw RockMountainBillboardBGPalettes
-	db Bank(RockMountainBillboardBGPalettes)
+	dw RockTunnelBillboardBGPalettes
+	db Bank(RockTunnelBillboardBGPalettes)
 	db $00 ; terminator
 
-RockMountainBillboardBGPaletteMapData:
+RockTunnelBillboardBGPaletteMapData:
 	dw Func_122e
 	db $18 ; total number of bytes
 
 	db $06 ; number of bytes
 	dw vBGMap + $87
-	dw RockMountainBillboardBGPaletteMap
-	db Bank(RockMountainBillboardBGPaletteMap)
+	dw RockTunnelBillboardBGPaletteMap
+	db Bank(RockTunnelBillboardBGPaletteMap)
 
 	db $06 ; number of bytes
 	dw vBGMap + $a7
-	dw RockMountainBillboardBGPaletteMap + $6
-	db Bank(RockMountainBillboardBGPaletteMap)
+	dw RockTunnelBillboardBGPaletteMap + $6
+	db Bank(RockTunnelBillboardBGPaletteMap)
 
 	db $06 ; number of bytes
 	dw vBGMap + $c7
-	dw RockMountainBillboardBGPaletteMap + $C
-	db Bank(RockMountainBillboardBGPaletteMap)
+	dw RockTunnelBillboardBGPaletteMap + $C
+	db Bank(RockTunnelBillboardBGPaletteMap)
 
 	db $06 ; number of bytes
 	dw vBGMap + $e7
-	dw RockMountainBillboardBGPaletteMap + $12
-	db Bank(RockMountainBillboardBGPaletteMap)
+	dw RockTunnelBillboardBGPaletteMap + $12
+	db Bank(RockTunnelBillboardBGPaletteMap)
 
 	db $00 ; terminator
 

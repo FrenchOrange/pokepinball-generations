@@ -46,7 +46,7 @@ VermilionStreetsBillboardBGPaletteMap: ; 0xabba8
 	db $6, $7, $7, $7, $7, $7
 	db $7, $7, $7, $7, $7, $7
 
-RockMountainBillboardBGPaletteMap: ; 0xabbc0
+RockTunnelBillboardBGPaletteMap: ; 0xabbc0
 	db $7, $7, $7, $7, $7, $7
 	db $6, $6, $7, $7, $7, $6
 	db $6, $6, $6, $6, $6, $6

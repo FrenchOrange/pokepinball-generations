@@ -18,7 +18,7 @@ RedStageWildMonsPointers:
 	dbw PEWTER_CITY,       RedStagePewterCityWildMons
 	dbw CERULEAN_CITY,     RedStageCeruleanCityWildMons
 	dbw VERMILION_SEASIDE, RedStageVermilionSeasideWildMons
-	dbw ROCK_MOUNTAIN,     RedStageRockMountainWildMons
+	dbw ROCK_TUNNEL,       RedStageRockTunnelWildMons
 	dbw LAVENDER_TOWN,     RedStageLavenderTownWildMons
 	dbw CYCLING_ROAD,      RedStageCyclingRoadWildMons
 	dbw SAFARI_ZONE,       RedStageSafariZoneWildMons
@@ -33,7 +33,7 @@ BlueStageWildMonsPointers:
 	dbw MT_MOON,           BlueStageMtMoonWildMons
 	dbw CERULEAN_CITY,     BlueStageCeruleanCityWildMons
 	dbw VERMILION_STREETS, BlueStageVermilionStreetsWildMons
-	dbw ROCK_MOUNTAIN,     BlueStageRockMountainWildMons
+	dbw ROCK_TUNNEL,       BlueStageRockTunnelWildMons
 	dbw CELADON_CITY,      BlueStageCeladonCityWildMons
 	dbw FUCHSIA_CITY,      BlueStageFuchsiaCityWildMons
 	dbw SAFARI_ZONE,       BlueStageSafariZoneWildMons
