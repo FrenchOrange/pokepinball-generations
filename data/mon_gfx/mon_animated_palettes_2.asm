@@ -11,13 +11,13 @@ ZubatAnimatedObjPalette2: ; 0xdb3788
 
 OddishAnimatedObjPalette1: ; 0xdb790
 	RGB 31, 31, 31
-	RGB 27, 29, 5
-	RGB 5, 16, 0
+	RGB 22, 28, 2
+	RGB 7, 18, 0
 	RGB 0, 0, 0
 OddishAnimatedObjPalette2: ; 0xdb798
 	RGB 31, 31, 31
-	RGB 27, 29, 5
-	RGB 5, 16, 0
+	RGB 31, 6, 0
+	RGB 4, 8, 14
 	RGB 0, 0, 0
 
 ParasAnimatedObjPalette1: ; 0xdb7a0
@@ -44,12 +44,12 @@ VenonatAnimatedObjPalette2: ; 0xdb7b8
 
 DiglettAnimatedObjPalette1: ; 0xdb7c0
 	RGB 31, 31, 31
-	RGB 31, 18, 1
+	RGB 27, 16, 9
 	RGB 24, 9, 3
 	RGB 0, 0, 0
 DiglettAnimatedObjPalette2: ; 0xdb7c8
 	RGB 31, 31, 31
-	RGB 31, 18, 1
+	RGB 27, 16, 9
 	RGB 24, 9, 3
 	RGB 0, 0, 0
 
@@ -88,24 +88,24 @@ MankeyAnimatedObjPalette2: ; 0xdb7f8
 
 GrowlitheAnimatedObjPalette1: ; 0xdb800
 	RGB 31, 31, 31
-	RGB 31, 18, 1
-	RGB 24, 9, 3
+	RGB 24, 20, 10
+	RGB 27, 9, 0
 	RGB 0, 0, 0
 GrowlitheAnimatedObjPalette2: ; 0xdb808
 	RGB 31, 31, 31
-	RGB 31, 18, 1
-	RGB 24, 9, 3
+	RGB 24, 20, 10
+	RGB 27, 9, 0
 	RGB 0, 0, 0
 
 PoliwagAnimatedObjPalette1: ; 0xdb810
 	RGB 31, 31, 31
-	RGB 17, 19, 23
-	RGB 9, 10, 12
+	RGB 30, 15, 14
+	RGB 10, 10, 16
 	RGB 0, 0, 0
 PoliwagAnimatedObjPalette2: ; 0xdb818
 	RGB 31, 31, 31
-	RGB 17, 19, 23
-	RGB 9, 10, 12
+	RGB 30, 15, 14
+	RGB 10, 10, 16
 	RGB 0, 0, 0
 
 AbraAnimatedObjPalette1: ; 0xdb820
@@ -253,13 +253,13 @@ ShellderAnimatedObjPalette2: ; 0xdb8e8
 
 GastlyAnimatedObjPalette1: ; 0xdb8f0
 	RGB 31, 31, 31
-	RGB 25, 17, 28
-	RGB 12, 7, 15
+	RGB 26, 18, 27
+	RGB 15, 8, 16
 	RGB 0, 0, 0
 GastlyAnimatedObjPalette2: ; 0xdb8f8
 	RGB 31, 31, 31
-	RGB 31, 23, 17
-	RGB 23, 8, 4
+	RGB 26, 18, 27
+	RGB 15, 8, 16
 	RGB 0, 0, 0
 
 OnixAnimatedObjPalette1: ; 0xdb900
@@ -374,24 +374,24 @@ KoffingAnimatedObjPalette2: ; 0xdb998
 
 RhyhornAnimatedObjPalette1: ; 0xdb9a0
 	RGB 31, 31, 31
-	RGB 26, 13, 24
-	RGB 15, 4, 14
+	RGB 19, 19, 21
+	RGB 10, 9, 13
 	RGB 0, 0, 0
 RhyhornAnimatedObjPalette2: ; 0xdb9a8
 	RGB 31, 31, 31
-	RGB 26, 13, 24
-	RGB 15, 4, 14
+	RGB 19, 19, 21
+	RGB 10, 9, 13
 	RGB 0, 0, 0
 
 ChanseyAnimatedObjPalette1: ; 0xdb9b0
 	RGB 31, 31, 31
-	RGB 31, 18, 16
-	RGB 31, 11, 9
+	RGB 31, 15, 20
+	RGB 27, 5, 7
 	RGB 0, 0, 0
 ChanseyAnimatedObjPalette2: ; 0xdb9b8
 	RGB 31, 31, 31
-	RGB 31, 18, 16
-	RGB 31, 11, 9
+	RGB 31, 15, 20
+	RGB 27, 5, 7
 	RGB 0, 0, 0
 
 TangelaAnimatedObjPalette1: ; 0xdb9c0
@@ -473,13 +473,13 @@ ScytherAnimatedObjPalette2: ; 0xdba28
 
 JynxAnimatedObjPalette1: ; 0xdba30
 	RGB 31, 31, 31
-	RGB 31, 16, 16
-	RGB 25, 1, 3
+	RGB 29, 6, 19
+	RGB 14, 2, 15
 	RGB 0, 0, 0
 JynxAnimatedObjPalette2: ; 0xdba38
 	RGB 31, 31, 31
-	RGB 31, 16, 16
-	RGB 25, 1, 3
+	RGB 29, 6, 19
+	RGB 14, 2, 15
 	RGB 0, 0, 0
 
 ElectabuzzAnimatedObjPalette1: ; 0xdba40

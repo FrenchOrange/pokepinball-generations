@@ -26,7 +26,7 @@ SeadraBillboardBGPaletteMap: ; 0xda460
 	db $6, $6, $6, $6, $6, $6
 	db $6, $6, $6, $6, $6, $6
 	db $6, $6, $6, $6, $6, $6
-	db $6, $6, $6, $6, $6, $6
+	db $7, $7, $7, $7, $7, $6
 
 GoldeenBillboardBGPaletteMap: ; 0xda478
 	db $6, $6, $6, $6, $6, $6
@@ -65,10 +65,10 @@ ScytherBillboardBGPaletteMap: ; 0xda4f0
 	db $6, $6, $6, $6, $6, $6
 
 JynxBillboardBGPaletteMap: ; 0xda508
-	db $6, $7, $7, $7, $6, $6
+	db $7, $7, $7, $7, $7, $7
+	db $7, $7, $7, $7, $7, $7
+	db $6, $7, $7, $7, $7, $6
 	db $6, $6, $6, $6, $6, $6
-	db $6, $6, $6, $6, $6, $6
-	db $6, $6, $7, $6, $6, $6
 
 ElectabuzzBillboardBGPaletteMap: ; 0xda520
 	db $6, $6, $6, $6, $6, $6
@@ -97,7 +97,7 @@ TaurosBillboardBGPaletteMap: ; 0xda568
 BulbasaurBillboardBGPaletteMap: ; 0xda800
 	db $7, $7, $7, $7, $7, $7
 	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $6, $7, $7
+	db $7, $7, $7, $6, $7, $6
 	db $7, $7, $7, $6, $6, $7
 
 IvysaurBillboardBGPaletteMap: ; 0xda818
@@ -107,10 +107,10 @@ IvysaurBillboardBGPaletteMap: ; 0xda818
 	db $6, $6, $6, $7, $7, $7
 
 VenusaurBillboardBGPaletteMap: ; 0xda830
-	db $7, $7, $6, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
-	db $7, $6, $6, $6, $6, $7
-	db $7, $7, $6, $6, $6, $7
+	db $7, $7, $7, $6, $7, $7
+	db $7, $7, $7, $6, $7, $7
+	db $7, $6, $6, $6, $7, $7
+	db $7, $7, $6, $6, $7, $7
 
 CharmanderBillboardBGPaletteMap: ; 0xda848
 	db $6, $6, $6, $6, $6, $6
@@ -186,6 +186,6 @@ BeedrillBillboardBGPaletteMap: ; 0xda950
 
 PidgeyBillboardBGPaletteMap: ; 0xda968
 	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
+	db $7, $6, $7, $7, $7, $7
 	db $7, $7, $7, $7, $7, $7
 	db $7, $7, $7, $7, $7, $7

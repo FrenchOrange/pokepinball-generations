@@ -72,9 +72,9 @@ GloomBillboardBGPaletteMap: ; 0xd7308
 
 VileplumeBillboardBGPaletteMap: ; 0xd7320
 	db $6, $6, $6, $6, $6, $6
-	db $6, $6, $6, $6, $6, $6
+	db $6, $7, $6, $6, $7, $6
 	db $6, $7, $7, $7, $7, $6
-	db $6, $6, $7, $7, $7, $6
+	db $6, $7, $7, $7, $7, $6
 
 ParasBillboardBGPaletteMap: ; 0xd7338
 	db $6, $6, $6, $6, $6, $6
@@ -108,7 +108,7 @@ DiglettBillboardBGPaletteMap: ; 0xd7618
 
 DugtrioBillboardBGPaletteMap: ; 0xd7630
 	db $6, $6, $6, $6, $6, $6
-	db $6, $6, $7, $6, $6, $6
+	db $7, $6, $7, $7, $7, $6
 	db $6, $6, $6, $6, $6, $6
 	db $6, $6, $6, $6, $6, $6
 
@@ -198,7 +198,7 @@ AlakazamBillboardBGPaletteMap: ; 0xd7a00
 
 MachopBillboardBGPaletteMap: ; 0xd7a18
 	db $6, $6, $6, $6, $6, $6
-	db $6, $6, $6, $6, $6, $7
+	db $6, $6, $6, $6, $7, $7
 	db $6, $6, $6, $6, $6, $6
 	db $6, $6, $6, $6, $6, $6
 
@@ -227,9 +227,9 @@ WeepinbellBillboardBGPaletteMap: ; 0xd7a78
 	db $7, $7, $7, $6, $6, $6
 
 VictreebellBillboardBGPaletteMap: ; 0xd7a90
-	db $6, $6, $6, $6, $6, $6
-	db $6, $6, $7, $6, $6, $6
-	db $6, $6, $7, $7, $7, $7
+	db $7, $6, $6, $6, $6, $6
+	db $6, $7, $7, $6, $6, $6
+	db $6, $7, $7, $7, $7, $7
 	db $6, $6, $6, $6, $6, $6
 
 TentacoolBillboardBGPaletteMap: ; 0xd7aa8

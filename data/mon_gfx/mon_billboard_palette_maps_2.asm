@@ -157,7 +157,7 @@ HitmonleeBillboardBGPaletteMap: ; 0xd88d8
 HitmonchanBillboardBGPaletteMap: ; 0xd88f0
 	db $6, $6, $7, $7, $7, $7
 	db $6, $6, $6, $7, $7, $7
-	db $6, $6, $7, $7, $7, $7
+	db $6, $6, $6, $7, $7, $7
 	db $7, $7, $7, $7, $7, $7
 
 LickitungBillboardBGPaletteMap: ; 0xd8908
@@ -181,11 +181,11 @@ WeezingBillboardBGPaletteMap: ; 0xd8938
 RhyhornBillboardBGPaletteMap: ; 0xd8950
 	db $6, $6, $6, $6, $6, $6
 	db $6, $6, $6, $6, $6, $6
-	db $6, $6, $6, $6, $6, $6
+	db $6, $6, $7, $6, $6, $6
 	db $6, $6, $6, $6, $6, $6
 
 RhydonBillboardBGPaletteMap: ; 0xd8968
 	db $6, $6, $6, $6, $6, $6
-	db $6, $6, $6, $6, $6, $6
+	db $6, $6, $6, $7, $6, $6
 	db $6, $6, $6, $6, $6, $6
 	db $6, $6, $6, $6, $6, $6

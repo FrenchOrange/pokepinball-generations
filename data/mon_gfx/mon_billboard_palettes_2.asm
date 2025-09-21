@@ -77,13 +77,13 @@ JolteonBillboardBGPalette2: ; 0x7bf68
 
 FlareonBillboardBGPalette1: ; 0x7bf70
 	RGB 31, 31, 31
-	RGB 31, 27, 0
-	RGB 31, 6, 0
+	RGB 29, 25, 12
+	RGB 29, 6, 2
 	RGB 0, 0, 0
 FlareonBillboardBGPalette2: ; 0x7bf78
 	RGB 31, 31, 31
-	RGB 31, 27, 0
-	RGB 31, 6, 0
+	RGB 29, 25, 12
+	RGB 29, 6, 2
 	RGB 0, 0, 0
 
 PorygonBillboardBGPalette1: ; 0x7bf80
@@ -137,7 +137,7 @@ KabutopsBillboardBGPalette1: ; 0x7bfc0
 	RGB 0, 0, 0
 KabutopsBillboardBGPalette2: ; 0x7bfc8
 	RGB 31, 31, 31
-	RGB 16, 25, 12
+	RGB 17, 21, 19
 	RGB 19, 12, 0
 	RGB 0, 0, 0
 

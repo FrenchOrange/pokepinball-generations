@@ -1,14 +1,14 @@
 PidgeottoBillboardBGPaletteMap: ; 0xb7c00
-	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
+	db $7, $6, $6, $6, $6, $6
+	db $7, $6, $6, $7, $7, $7
+	db $7, $6, $7, $7, $7, $7
 	db $7, $7, $7, $7, $7, $7
 
 PidgeotBillboardBGPaletteMap: ; 0xb7c18
-	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
+	db $7, $6, $6, $6, $6, $7
+	db $7, $6, $6, $7, $6, $6
+	db $7, $6, $7, $7, $7, $7
+	db $6, $6, $7, $7, $7, $7
 
 RattataBillboardBGPaletteMap: ; 0xb7c30
 	db $7, $7, $7, $7, $7, $7
@@ -24,14 +24,14 @@ RaticateBillboardBGPaletteMap: ; 0xb7c48
 
 SpearowBillboardBGPaletteMap: ; 0xb7c60
 	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
+	db $6, $6, $7, $7, $6, $6
+	db $6, $6, $7, $7, $6, $6
+	db $7, $7, $7, $7, $6, $6
 
 FearowBillboardBGPaletteMap: ; 0xb7c78
-	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
+	db $7, $7, $6, $6, $7, $7
+	db $7, $7, $7, $7, $6, $6
+	db $7, $7, $7, $7, $7, $6
 	db $7, $7, $7, $7, $7, $7
 
 EkansBillboardBGPaletteMap: ; 0xb7c90
@@ -41,10 +41,10 @@ EkansBillboardBGPaletteMap: ; 0xb7c90
 	db $7, $7, $7, $7, $7, $7
 
 ArbokBillboardBGPaletteMap: ; 0xb7ca8
-	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
-	db $7, $7, $7, $7, $7, $7
+	db $6, $6, $6, $6, $6, $6
+	db $6, $6, $7, $7, $6, $6
+	db $6, $7, $7, $7, $7, $6
+	db $6, $6, $6, $6, $6, $6
 
 PikachuBillboardBGPaletteMap: ; 0xb7cc0
 	db $7, $7, $7, $7, $7, $7
