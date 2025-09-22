@@ -1753,13 +1753,13 @@ FieldSelectScreenBGPalette1_Kanto: ; 0xdd108
 	RGB 0,0,0
 FieldSelectScreenBGPalette2_Kanto: ; 0xdd110
 	RGB 31,31,31
-	RGB 31,20,10
-	RGB 26,10,6
+	RGB 30,14,07
+	RGB 0,16,24
 	RGB 0,0,0
 FieldSelectScreenBGPalette3_Kanto: ; 0xdd118
 	RGB 31,31,31
-	RGB 21,25,29
-	RGB 13,18,24
+	RGB 0,16,24
+	RGB 29,21,16
 	RGB 0,0,0
 FieldSelectScreenBGPalette4_Kanto: ; 0xdd120
 	RGB 31,31,31
