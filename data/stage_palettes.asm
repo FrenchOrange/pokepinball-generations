@@ -1801,13 +1801,13 @@ FieldSelectScreenBGPalette1_Johto: ; 0xdd108
 	RGB 0,0,0
 FieldSelectScreenBGPalette2_Johto: ; 0xdd110
 	RGB 31,31,31
-	RGB 31,07,03
-	RGB 07,15,03
+	RGB 31,30,04
+	RGB 29,16,07
 	RGB 0,0,0
 FieldSelectScreenBGPalette3_Johto: ; 0xdd118
 	RGB 31,31,31
-	RGB 25, 17, 28
-	RGB 10, 00, 31
+	RGB 09,22,29
+	RGB 07,08,16
 	RGB 0,0,0
 FieldSelectScreenBGPalette4_Johto: ; 0xdd120
 	RGB 31,31,31
